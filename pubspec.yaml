@@ -1,4 +1,5 @@
-name: sqflite_demo
+name: RemindMe
+//name: sqflite_demo
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -37,10 +38,18 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  flutter_launcher_icons: ^0.7.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'images/test02.jpg'
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
+
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -48,6 +57,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+
+  assets:
+    - images/test01.jpg
+    - images/test02.jpg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

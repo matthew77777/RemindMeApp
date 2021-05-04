@@ -1,0 +1,4 @@
+name: datetime1
+
+dependencies:
+  intl: ^0.15.7

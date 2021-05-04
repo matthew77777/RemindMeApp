@@ -1,5 +1,5 @@
-import 'package:sqflite_demo/db/db_provider.dart';
-import 'package:sqflite_demo/model/input_text.dart';
+import 'package:RemindMe/db/db_provider.dart';
+import 'package:RemindMe/model/input_text.dart';
 
 class InputTextRepository {
   static String table = 'input_text';
